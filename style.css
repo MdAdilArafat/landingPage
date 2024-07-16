@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+#nav h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+#content{
+    padding: 100px 60px;
+}
+#content h4{
+  font-size: 40px;
+  font-weight: 500;
+}
+#content h1{
+    padding: 20px 0;
+    font-size: 130px;
+    line-height: 120px;
+    letter-spacing: -8px;
+    word-spacing: 15px;
+    font-weight: 500;
+  }
+  #case{
+    margin-top: 30px;
+    padding: 40px 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #case h4{
+    font-size: 26px;
+    font-weight: 600;
+
+  }
+  #right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  #line{
+    height: 2px ;
+    width: 150px;
+    background-color: #000;
+  }
+#project{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 65px;
+  gap: 80px;
+}
+.elem{
+  width: 50%;
+}
+.elem-image{
+  background-color: rgb(122, 123, 172);
+  height: 400px;
+  width: 100%;
+  border-radius: 30px;
+  background-size: cover;
+  background-position: center;
+}
+#img1{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/394px-Sketch_Logo.svg.png?20230303045010);
+}
+#img2{
+  background-image: url(https://play-lh.googleusercontent.com/AlmIl24eJ2Wgd5DphCk2KkuJZgDIgdkJn3Ghz_SSiXBk3hRHHBvB5MVHTgEZM9alT2I=w2560-h1440-rw);
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+.bottom i{
+  padding: 15px 30px;
+  border: 2px solid;
+  border-radius: 50px;
+  font-size: 22px;
+  font-weight: 800;
+}
+.bottom i:hover{
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+.bottom h2{
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.bottom h4{
+  font-size: 18px;
+  font-weight: 500;
+  color: #838282;
+
+}
